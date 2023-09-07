@@ -1,0 +1,25 @@
+*{box-sizing: border-box;}
+.title{
+    background-color: rgb(161, 129, 238);
+    color: indigo;
+    padding: 1em;
+    text-align: center;
+}
+.img1, .img2, .img3, .img4, .img5, .img6{
+    width: 45%;
+    margin: 2%;
+}
+.img1{border-radius: 15px;
+box-shadow: 1px 1px 3px cadetblue;}
+.img2{border-radius: 50%;}
+.img3{border:lightseagreen 10px inset;
+padding: 1em;
+background-color: darkslategray;}
+.img4{
+    box-shadow: 0px 0px 3px 2px olivedrab;
+}
+.img5{box-shadow: 1px 1px 2px darkgrey;
+border-radius: 15px;}
+.img6{border: seagreen 10px;
+padding: 1em;
+background-color: rgb(150, 120, 54);}
