@@ -1,0 +1,92 @@
+*{box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+.title{
+    text-align: center;
+    color: darkslateblue; 
+    transition: ease-in-out 2s;   
+}
+.title:hover{
+    font-family: algerian;
+    color: rgb(139, 116, 0);
+    text-shadow: 1px 1px 5px black;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.imgContainer1, .imgContainer2{
+    width: 200px;
+    height: 200px;
+    border: ridge 12px slategray; 
+    transition: ease 2s;
+    overflow: hidden;
+    margin: 5em;
+}
+.imgContainer1:hover{
+    border-radius: 50%;
+    border: dotted 10px rgb(199, 199, 255);
+    transform: translateX(500px);
+}
+.imgContainer2:hover{
+    border-radius: 50%;
+    border: dashed 10px aquamarine;
+    transform: scale(1.3);
+}
+.card{
+    width: 30%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5em;
+    transition: ease 300ms;
+}
+.cardMsg{
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 2%;
+    right: 2%;
+    text-align: center;
+    color: black;
+    font-size: 3em;
+}
+.card:hover{
+    box-shadow: 0px 0px 5px 3px rgb(193, 188, 131);
+    width: 30.5%;
+}
+.card:hover .cardMsg{
+    color: rgb(168, 119, 46);
+    text-shadow: 1px 1px 3px whitesmoke;
+}
+/*---------- CLASS ACTIVITY ----------*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card2{
+    width: 22%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    overflow: hidden;
+    margin: 1em;
+    transition: ease 300ms;
+}
+.card2:hover{
+   transform: scale(0.9);
+    box-shadow: none;
+}
+.cardMsg2{
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 2%;
+    right: 2%;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 3em;
+}
+.cardMsg2:hover{
+    color: blue;
+}
