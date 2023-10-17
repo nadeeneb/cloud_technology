@@ -1,0 +1,183 @@
+*{box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+.navBar{
+    background-color:rgb(12, 86, 107); 
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    position: fixed;
+}
+body{
+    background: rgb(79, 122, 152); 
+}
+.nav_link{
+    color:  rgb(175, 218, 230);
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin: 0em 1.58em;
+    text-align: center;
+}
+.nav_link:hover{
+    color: rgb(230, 147, 23);
+    background-color: rgb(58, 57, 57);
+    font-size: 1.4em;
+    font-weight: 900;
+    font-family: algerian;
+}
+.title{
+    margin-top: 4em;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 4px 4px 1px red;
+    font-family: algerian;
+}
+.title:hover{
+    color: black;
+}
+.intro{
+    margin-top: 3em;
+    color: rgb(255, 213, 213);
+    margin-left: 13%;
+    margin-right: 67%;
+    position: absolute;
+    text-align: center;
+}
+.mainhall{
+    width: 50%;
+    margin-left: 32em;
+    margin-right: 3em;
+    top: 40%;
+    position: absolute;
+}
+.subtitle{
+    color: white;
+    text-shadow: 4px 4px 1px red;
+    font-size: xx-large;
+    margin-left: 35%;
+    margin-right: 30%;
+    position: absolute;
+    top: 120%;
+}
+.characters{
+    margin-left: 10%;
+    right: 60%;
+    width: 20%;
+}
+.info{
+    margin-left: 32%;
+    top: 135%;
+    margin-right: 10%;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(255, 213, 213);
+    line-height: 150%;
+    position: absolute;
+}
+.arrow{
+    position: absolute;
+    transform: rotate(45deg);
+    width: 30%;
+    top: 118em;
+    left: 50%;
+    right: 40%;
+}
+.arrow2{
+    position: absolute;
+    transform: rotate(135deg);
+    width: 30%;
+    top: 118em;
+    left: 20%;
+    right: 50%;
+}
+.routes{
+    font-size: xx-large;
+   color: white;
+    text-shadow: 4px 4px 1px red;
+   text-align: center;
+}
+.routeinfo{
+    margin-left: 18%;
+    margin-right: 18%;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(255, 213, 213);
+    line-height: 150%;
+}
+.emotion{
+    margin-left: 5%;
+    margin-right: 55%;
+    font-size: x-large;
+    margin-top: 14em;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    position: absolute;
+    line-height: 150%;
+}
+.emotion:hover{
+    color:rgb(255, 155, 225);
+}
+.logic{
+    margin-left: 55%;
+    margin-right: 5%;
+    font-size: x-large;
+    margin-top: 14em;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    position: absolute;
+    line-height: 150%;
+}
+.logic:hover{
+    color: rgb(143, 255, 255);
+}
+.reko{
+    width: 20%;
+    position: absolute;
+    margin-top: 22em;
+    margin-left: 65%;
+    opacity: 30%;
+}
+.reko:hover{
+    content: url(images/kannaroute.webp);
+}
+.alice{
+    width: 20%;
+    position: absolute;
+    margin-top: 22em;
+    margin-left: 10%;
+    opacity: 30%;
+}
+.alice:hover{
+    content: url(images/souroute.webp);
+}
+.divider{
+    height: 5em;
+}
+.divider2{
+    height: 5em;
+}
+.container{
+    margin-top: 30em;
+}
+.container2{
+    margin-top: 10em;
+}
+.divider3{
+    height: -5em;
+}
+div#lH {
+    font-size: x-large;
+    top: 22%;
+    position: absolute;
+    left: 33%;
+  }
+  audio#aH {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    z-index: 2;
+    opacity: 0.01;
+  }
