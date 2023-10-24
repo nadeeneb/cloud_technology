@@ -29,7 +29,7 @@
       <li class="list-group-item active">Cereal</li>
     </ul>
 
-    <h2 class="bg-warning text-primary text-center p-3">Dropdown</h2>
+    <h2 class="bg-light text-primary text-center p-3">Dropdown</h2>
     <div class="dropdown m-4">
       <button type="button" class="dropdown-toggle btn btn-secondary" data-bs-toggle="dropdown">CUNY Community College</button>
       <ul class="dropdown-menu">
@@ -41,7 +41,7 @@
       </ul>
     </div>
 
-    <h2 class="bg-warning text-primary text-center p-3">Group dropdown menu</h2>
+    <h2 class="bg-light text-primary text-center p-3">Group dropdown menu</h2>
     <div class="btn-group">
       <button type="button" class="btn-danger btn">Home</button>
       <button type="button" class="btn-danger btn dropdown-toggle" data-bs-toggle="dropdown">CUNY Community College</button>
@@ -55,9 +55,161 @@
       </ul>
     </div>
 
-    <h2 class="bg-warning text-primary text-center p-3">Collapsible</h2>
-    <button>Info about cats</button>
+    <h2 class="bg-light text-primary text-center p-3">Collapsible</h2>
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#bonnie">Info of Bonnie</button>
+    <div id="bonnie" class="collapse">
+      <p class="p-3">Bonnie the Rabbit, also known as Bonnie, is one of the four original animatronics of Freddy Fazbear's Pizza and a major antagonist in the Five Nights at Freddy's series. Bonnie is an animatronic rabbit and the guitarist in Freddy's band, positioned at the left side of the stage.</p>
+      <img src="bonnie.webp" alt="bonnie" width="50%" class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer">Photo by Michael</p>
+    </div>
 
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#freddy">Info of Freddy</button>
+    <div id="freddy" class="collapse">
+      <p class="p-3">Freddy Fazbear is one of the four original animatronics of Freddy Fazbear's Pizza and the titular antagonist of the Five Nights at Freddy's series. Freddy is an animatronic bear and the mascot of the original Freddy Fazbear's Pizza. He takes the role as lead singer of the band, standing in the center of the stage.</p>
+      <img src="freddy.jpg" alt="freddy" width="50%" class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer">Photo by Michael</p>
+    </div>
+
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#chica">Info of Chica</button>
+    <div id="chica" class="collapse">
+      <p class="p-3">Chica the Chicken, also known as Chica, is one of the four original animatronics of Freddy Fazbear's Pizza and a major antagonist in the Five Nights at Freddy's series. Chica is an animatronic chicken and the backup singer in Freddy's band, positioned at the right side of the stage.</p>
+      <img src="chica.jpg" alt="chica" width="50%" class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer">Photo by Michael</p>
+    </div>
+
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#foxy">Info of Foxy</button>
+    <div id="foxy" class="collapse">
+      <p class="p-3">Foxy the Pirate, also known as Foxy, is one of the four original animatronics of Freddy Fazbear's Pizza and a major antagonist in the Five Nights at Freddy's series. Foxy is a discontinued animatronic pirate fox entertainer. He resides at his own separate stage in the pizzeria. </p>
+      <img src="foxy.jpg" alt="foxy" width="50%" class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer">Photo by Michael</p>
+    </div>
+
+    <h1 class="bg-light text-center mt-5 p-3">Layouts</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 bg-primary p-3 m-4"><img src="bonnie.webp" width="100%"></div>
+        <div class="col-md-6 col-sm-12 bg-dark p-3 m-4 text-light rounded"> <h2>Bonnie</h2><p>Column Right</p></div>
+      </div>
+    </div>
+
+    <h1 class="bg-light text-center mt-5 p-3">Cards</h1>
+    <div class="container-fluid">
+      <div class="row">
+
+        <section class="card col-3 m-4 col-lg-3 col-sm-10">
+          <div class="card-header">
+            <h2>Mr. Afton</h2>
+            <p>Robotic Engineer<p>
+          </div>
+          <div class="card-body">
+            <img src="springbonnie.webp" class="card-img img-fluid">
+            <p class="card-text p-1">Afton had a strange fascination with Spring Bonnie, a suit which depicted a large androgynous yellow rabbit. He would wear it inside the pizzeria, via using a hand crank to move the inner metal parts of the suit away from his face, chest, arms and legs.</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="card-link">About</a>
+            <a href="" class="card-link">Appearance</a>
+            <a href="" class="card-link">Gallery</a>
+          </div>
+        </section>
+
+
+        <section class="card col-3 m-4 bg-info col-lg-3 col-sm-10 text-light">
+          <img src="micael.gif" class="card-img-top" width="100%">
+          <div class="card-body">
+            <h2 class="card-title">Michael Afton</h2>
+            <p class="card-subtitle"><i class="text-muted">Night Guard</i></p>
+            <p class="card-text">Michael Afton (also known as Mike Schmidt and Eggs Benedict) is the main protagonist of the Five Nights at Freddy's game series, first appearing with his real name in Sister Location. He is one of the sons of William Afton, and older brother of Crying Child and Elizabeth Afton.</p>
+            <a href="" class="card-link text-secondary">About</a>
+            <a href="" class="card-link text-secondary">Appearance</a>
+            <a href="" class="card-link text-secondary">Gallery</a>
+          </div>
+        </section>
+
+
+        <section class="card col-3 m-4 col-lg-3 col-sm-10">
+          <div class="card-body">
+            <img src="cryingchild.webp" class="card-img" width="100%">
+            <h2 class="card-title">Crying Child</h2>
+            <p><i class="card-subtitle">Birthday Boy</i></p>
+            <p class="card-text">The Crying Child is a timid child with a seemingly paralyzing fear or phobia of many things, including animatronics. He undergoes bullying and teasing by his Older Brother, Michael Afton, who is always seen wearing a Foxy mask.</p>
+            <div class="list-group list-group-flush">
+            <li class="list-group-item"><a href="" class="card-link text-secondary">About</a></li>
+            <li class="list-group-item"><a href="" class="card-link text-secondary">Appearance</a></li>
+              <li class="list-group-item"><a href="" class="card-link text-secondary">Gallery</a></li>
+          </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <h1 class="bg-light text-center mt-5 p-3">Class Activity</h1>
+
+    <div class="row">
+    <section class="card col-1 col-lg-3 col-sm-10">
+      <div class="card-header">
+        <h2>Withered Bonnie</h2>
+        <p>no face<p>
+      </div>
+      <div class="card-body">
+        <img src="wbonnie.webp" class="card-img img-fluid">
+        <p class="card-text p-1">His older pre-rebuilt form, known as Withered Bonnie, has a damaged appearance, which is due to an attempted retrofit of the older animatronics that took place before they got scrapped for the newer models, such as Toy Bonnie.[6] Like Withered Freddy, Withered Bonnie also has two buttons on his chest. His face has been gutted, with most of it being removed, revealing his endoskeleton mechanisms and dangling wires. His lower jaw remains, featuring more teeth than the original Bonnie possessed in the first game, although the jaw itself still appears to be functional.</p>
+      </div>
+      <div class="card-footer">
+        <a href="" class="card-link">About</a>
+        <a href="" class="card-link">Appearance</a>
+        <a href="" class="card-link">Gallery</a>
+      </div>
+    </section>
+
+    <section class="card col-1 col-lg-3 col-sm-10">
+      <div class="card-header">
+        <h2>Withered Freddy</h2>
+        <p>big head<p>
+      </div>
+      <div class="card-body">
+        <img src="wfreddy.webp" class="card-img img-fluid">
+        <p class="card-text p-1">As Withered Freddy, he is the older, withered incarnation[7][8] and the first engineered model. He, along with the four other older animatronics, have all fallen into severe disrepair, and he is replaced by his newer counterpart for the "improved" Freddy Fazbear's Pizza, Toy Freddy. It is explained that he has gone through an attempted retrofit, but was left unfinished after the management chose Toy Freddy instead (much like the other original animatronics being replaced by their respective counterparts).</p>
+      </div>
+      <div class="card-footer">
+        <a href="" class="card-link">About</a>
+        <a href="" class="card-link">Appearance</a>
+        <a href="" class="card-link">Gallery</a>
+      </div>
+    </section>
+
+    <section class="card col-1 col-lg-3 col-sm-10">
+      <div class="card-header">
+        <h2>Withered Chica</h2>
+        <p>The First<p>
+      </div>
+      <div class="card-body">
+        <img src="wchica.webp" class="card-img img-fluid">
+        <p class="card-text p-1">As her older, withered form, Withered Chica, she, along with the four other older animatronics, have all fallen into severe disrepair. She is replaced by her newer counterpart (Toy Chica) for the "improved" Freddy Fazbear's Pizza due to an attempted retrofit and subsequent abandonment of the older model in favor of Toy Chica, according to Phone Guy on Night 2.[4] For a start, the feminine features have been toned down, and she appears more androgynous as a result, to contrast her more with Toy Chica.</p>
+      </div>
+      <div class="card-footer">
+        <a href="" class="card-link">About</a>
+        <a href="" class="card-link">Appearance</a>
+        <a href="" class="card-link">Gallery</a>
+      </div>
+    </section>
+
+    <section class="card col-1 col-lg-3 col-sm-10">
+      <div class="card-header">
+        <h2>Withered Foxy</h2>
+        <p>flashlight<p>
+      </div>
+      <div class="card-body">
+        <img src="wfoxy.webp" class="card-img img-fluid">
+        <p class="card-text p-1">As Withered Foxy (Foxy's withered form), he, along with the four other older animatronics, have all fallen into severe disrepair, and he is replaced by his newer counterpart for the "improved" Freddy Fazbear's Pizza due to an attempted retrofit of the older animatronics that took place before they got scrapped for the newer models, such as Mangle.[4] Withered Foxy's suit has become even more tattered and the fur on his left ear has come off completely.</p>
+      </div>
+      <div class="card-footer">
+        <a href="" class="card-link">About</a>
+        <a href="" class="card-link">Appearance</a>
+        <a href="" class="card-link">Gallery</a>
+      </div>
+    </section>
+    </div>
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
