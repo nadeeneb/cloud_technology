@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carousel by Nadeene Baalla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 class="bg-dark text-center text-light p-3">Carousel by Nadeene Baalla</h1>
+    <section class="carousel slide" data-bs-ride="carousel" style="width: 60%; margin: auto;" id="slideshow">
+        <div class="carousel-inner">
+            <div class="carousel-item active"><img src="images/sockssleep.jpg" width="100%"><h2 class="carousel-caption">socks sleep</h2></div>
+            <div class="carousel-item"><img src="images/sockssleepy.jpg" width="100%"><h2 class="carousel-caption">socks sleepy</h2></div>
+            <div class="carousel-item"><img src="images/socksstaring.jpg" width="100%"><h2 class="carousel-caption">socks staring</h2></div>
+            <div class="carousel-item"><img src="images/sockscutee.jpeg" width="100%"><h2 class="carousel-caption">socks cute</h2></div>
+            <div class="carousel-item"><img src="images/socksnap.jpeg" width="100%"><h2 class="carousel-caption">socks nap</h2></div>
+        </div>
+
+        <!-- Left and right controls-->
+
+        <button class="carousel-control-prev" type="button" data-bs-slide="prev" data-bs-target="#slideshow">
+            <span class="carousel-control-prev-icon bg-info" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-slide="next" data-bs-target="#slideshow">
+            <span class="carousel-control-next-icon bg-info" aria-hidden="true"></span>
+        </button>
+
+        <!-- Indicators -->
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
