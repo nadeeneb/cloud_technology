@@ -1,0 +1,30 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
+.dismissable{
+    text-align: center;
+    margin: auto;
+    font-size: medium;
+}
+body{
+    background: rgb(145, 108, 200); 
+}
+.navwords:hover{
+    color: aqua;
+    background-color: rgb(255, 0, 179);
+}
+.navbar{
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    position: fixed;
+    background-color: rgb(156, 121, 210); 
+}
+.frontimg{
+    margin-top: 9em;
+}
+.artisttitle{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15%;
+}

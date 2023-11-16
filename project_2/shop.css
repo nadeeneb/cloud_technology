@@ -1,0 +1,49 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
+.dismissable{
+    text-align: center;
+    margin: auto;
+    font-size: medium;
+}
+body{
+    background: rgb(145, 108, 200); 
+}
+.navwords:hover{
+    color: aqua;
+    background-color: rgb(255, 0, 179);
+}
+.navbar{
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    position: fixed;
+    background-color: rgb(156, 121, 210); 
+}
+.frontimg{
+    margin-top: 6em;
+}
+.artisttitle{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 11%;
+}
+.popup{
+    margin-top: 13%;
+}
+@media screen and (min-width:576px){
+    .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/4);
+    }
+}
+.carousel-inner{
+    padding: 1em;
+}
+.card{
+    margin: 0.5em;
+}

@@ -1,0 +1,21 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(145, 108, 200); 
+}
+.navwords:hover{
+    color: aqua;
+    background-color: rgb(255, 0, 179);
+}
+.navbar{
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    position: fixed;
+    background-color: rgb(156, 121, 210); 
+}
+.sect1, .sect2, .sect3{
+    margin-top: 15%;
+}
